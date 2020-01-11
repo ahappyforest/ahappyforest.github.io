@@ -16,21 +16,17 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Liu Peng" />
-  <meta name="description" content="1 背景 UART16550是串口通信电路的具体IP实现，最早的版本是在1987年由National Semiconductor发布的，后来经过历" />
-
-  <meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Liu Peng" /><meta name="description" content="1 背景 UART16550是串口通信电路的具体IP实现，最早的版本是在1987年由National Semiconductor发布的，后来经过历" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.62.2" />
+<meta name="generator" content="Hugo 0.62.2 with theme even" />
 
 
 <link rel="canonical" href="http://ahappyforest.github.io/post/opencore-uart16550-porting-from-wishbone-to-axi/" />
-
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,15 +34,8 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
-
-
-
-
-
-<link href="/dist/even.min.css?v=3.0.1" rel="stylesheet">
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
-
-
 
 
 <meta property="og:title" content="OpenCore UART16550 Porting from Wishbone to AXI" />
@@ -90,7 +79,7 @@
 </div>
 <nav id="mobile-menu" class="mobile-menu slideout-menu">
   <ul class="mobile-menu-list">
-    <a href="/">
+    <a href="/post/">
         <li class="mobile-menu-item">主页</li>
       </a><a href="/post/">
         <li class="mobile-menu-item">归档</li>
@@ -110,7 +99,7 @@
 <nav class="site-navbar">
   <ul id="menu" class="menu">
     <li class="menu-item">
-        <a class="menu-item-link" href="/">主页</a>
+        <a class="menu-item-link" href="/post/">主页</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/post/">归档</a>
       </li><li class="menu-item">
@@ -133,21 +122,17 @@
       <div class="post-meta">
         <span class="post-time"> 2018-03-04 </span>
         <div class="post-category">
-            
-              <a href="/categories/fpga/"> fpga </a>
-            
-          </div>
-        
+            <a href="/categories/fpga/"> fpga </a>
+            </div>
+          <span class="more-meta"> 约 7500 字 </span>
+          <span class="more-meta"> 预计阅读 15 分钟 </span>
         
       </div>
     </header>
 
-    
-    
-<div class="post-toc" id="post-toc">
+    <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
-  
-  <div class="post-toc-content always-active">
+  <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
     <li><a href="#31-发送状态机">3.1 发送状态机</a></li>
@@ -182,8 +167,6 @@
 </nav>
   </div>
 </div>
-
-    
     <div class="post-content">
       <h1 id="1-背景">1 背景</h1>
 <p>UART16550是串口通信电路的具体IP实现，最早的版本是在1987年由National Semiconductor发布的，后来经过历史的演变, 被广泛使用, 本文所研究的UART16550 IP是由Opencores发布的开源实现, 该代码可以在<a href="https://opencores.org/project,uart16550">Opencores</a>官网上下载得到.</p>
@@ -906,7 +889,6 @@ int main()
 
     </div>
 
-    
     <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
@@ -914,46 +896,33 @@ int main()
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2018-03-04</span>
+    <span class="item-content">
+        2018-03-04
+        
+    </span>
   </p>
   
   
 </div>
-
-    
-    
-
-    <footer class="post-footer">
+<footer class="post-footer">
       <div class="post-tags">
-          
           <a href="/tags/opencores/">opencores</a>
-          
           <a href="/tags/vivado/">vivado</a>
-          
           <a href="/tags/fpga/">fpga</a>
-          
           <a href="/tags/uart16550/">uart16550</a>
-          
           <a href="/tags/wishbone/">wishbone</a>
-          
           <a href="/tags/axi/">axi</a>
-          
           <a href="/tags/zedboard/">zedboard</a>
-          
-        </div>
-
-      
+          </div>
       <nav class="post-nav">
-        
-          <a class="prev" href="/post/irun_vcs_dump_waveform_method/">
+        <a class="prev" href="/post/irun_vcs_dump_waveform_method/">
             <i class="iconfont icon-left"></i>
             <span class="prev-text nav-default">irun或者vcs dump波形文件的方法</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        
-          <a class="next" href="/post/codeviz-usage/">
+        <a class="next" href="/post/codeviz-usage/">
             <span class="next-text nav-default">Codeviz 工具编译与使用</span>
-            <span class="prev-text nav-mobile">下一篇</span>
+            <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
       </nav>
@@ -961,11 +930,11 @@ int main()
   </article>
         </div>
         
-  
 
   
 
   
+
       </div>
     </main>
 
@@ -990,8 +959,7 @@ int main()
 
   <span class="copyright-year">
     &copy; 
-    
-      2017 - 
+    2017 - 
     2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
@@ -1005,11 +973,18 @@ int main()
       <i class="iconfont icon-up"></i>
     </div>
   </div>
-  
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
-<script type="text/javascript" src="/dist/even.min.js?v=3.0.1"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
 
 

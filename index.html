@@ -16,22 +16,19 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Liu Peng" />
-  <meta name="description" content="Hugo theme even example site." />
-  <meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Liu Peng" /><meta name="description" content="Hugo theme even example site." /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.62.2" />
+<meta name="generator" content="Hugo 0.62.2 with theme even" />
 
 
 <link rel="canonical" href="http://ahappyforest.github.io/" />
-<link href="http://ahappyforest.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Even - A super concise theme for Hugo" />
+  <link href="http://ahappyforest.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Even - A super concise theme for Hugo" />
   <link href="http://ahappyforest.github.io/index.xml" rel="feed" type="application/rss+xml" title="Even - A super concise theme for Hugo" />
-
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,15 +36,8 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
-
-
-
-
-
-<link href="/dist/even.min.css?v=3.0.1" rel="stylesheet">
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
-
-
 
 
 <meta property="og:title" content="Even - A super concise theme for Hugo" />
@@ -83,7 +73,7 @@
 </div>
 <nav id="mobile-menu" class="mobile-menu slideout-menu">
   <ul class="mobile-menu-list">
-    <a href="/">
+    <a href="/post/">
         <li class="mobile-menu-item">主页</li>
       </a><a href="/post/">
         <li class="mobile-menu-item">归档</li>
@@ -103,7 +93,7 @@
 <nav class="site-navbar">
   <ul id="menu" class="menu">
     <li class="menu-item">
-        <a class="menu-item-link" href="/">主页</a>
+        <a class="menu-item-link" href="/post/">主页</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/post/">归档</a>
       </li><li class="menu-item">
@@ -118,41 +108,85 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          
-  <section id="posts" class="posts">
-    
-    
-    
-      <article class="post">
+          <section id="posts" class="posts">
+    <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/">Posts</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/irun_vcs_dump_waveform_method/">irun或者vcs dump波形文件的方法</a></h1>
     <div class="post-meta">
       <span class="post-time"> 2020-01-11 </span>
-      
-      
+      <div class="post-category">
+          <a href="/categories/verification/"> verification </a>
+          </div>
+        <span class="more-meta"> 约 291 字 </span>
+        <span class="more-meta"> 预计阅读 1 分钟 </span>
     </div>
   </header>
   
   <div class="post-content">
     <div class="post-summary">
-      
+      irun 当我们在irun下面需要dump波形文件的时候, 一般会在tb文件中写下如下的代码: module tb_top; ... logic [1023:0] testcase_reg; initial begin string testcase; $value$plugargs(&quot;UVM_TESTNAME=%s&quot;, testcase); testcase_reg = $sformatf(&quot;waveform.%s.shm&quot;, testcase); $shm_open(testcase_reg); $shm_probe(&quot;AS&quot;); end endmodule 注意, 这里之所以
     </div>
     <div class="read-more">
-      <a href="/post/" class="read-more-link">阅读更多</a>
+      <a href="/post/irun_vcs_dump_waveform_method/" class="read-more-link">阅读更多</a>
     </div>
   </div>
 </article>
 
-    
-  </section>
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/opencore-uart16550-porting-from-wishbone-to-axi/">OpenCore UART16550 Porting from Wishbone to AXI</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2018-03-04 </span>
+      <div class="post-category">
+          <a href="/categories/fpga/"> fpga </a>
+          </div>
+        <span class="more-meta"> 约 7500 字 </span>
+        <span class="more-meta"> 预计阅读 15 分钟 </span>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      1 背景 UART16550是串口通信电路的具体IP实现，最早的版本是在1987年由National Semiconductor发布的，后来经过历
+    </div>
+    <div class="read-more">
+      <a href="/post/opencore-uart16550-porting-from-wishbone-to-axi/" class="read-more-link">阅读更多</a>
+    </div>
+  </div>
+</article>
+
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/codeviz-usage/">Codeviz 工具编译与使用</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2018-03-04 </span>
+      <div class="post-category">
+          <a href="/categories/toolchain/"> toolchain </a>
+          </div>
+        <span class="more-meta"> 约 931 字 </span>
+        <span class="more-meta"> 预计阅读 2 分钟 </span>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      codeviz 用来生成代码调用关系 安装 $ git clone https://github.com/petersenna/codeviz $ cd compilers $ ncftpget ftp://ftp.gnu.org/pub/gnu/gcc/gcc-4.6.2/gcc-4.6.2.tar.gz $ ./install_gcc-4.6.2.sh /usr/local/gcc-graph codeviz目录下的bin/目录就是使用的脚本, 所以也不需要安装, 唯一需要做的事情是需
+    </div>
+    <div class="read-more">
+      <a href="/post/codeviz-usage/" class="read-more-link">阅读更多</a>
+    </div>
+  </div>
+</article>
+
+    </section>
   
   <nav class="pagination">
     
     
   </nav>
-
         </div>
         
+
       </div>
     </main>
 
@@ -177,8 +211,7 @@
 
   <span class="copyright-year">
     &copy; 
-    
-      2017 - 
+    2017 - 
     2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
@@ -192,11 +225,18 @@
       <i class="iconfont icon-up"></i>
     </div>
   </div>
-  
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
-<script type="text/javascript" src="/dist/even.min.js?v=3.0.1"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
 
 

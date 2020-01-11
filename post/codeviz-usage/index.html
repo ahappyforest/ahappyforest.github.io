@@ -16,21 +16,17 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Liu Peng" />
-  <meta name="description" content="codeviz 用来生成代码调用关系 安装 $ git clone https://github.com/petersenna/codeviz $ cd compilers $ ncftpget ftp://ftp.gnu.org/pub/gnu/gcc/gcc-4.6.2/gcc-4.6.2.tar.gz $ ./install_gcc-4.6.2.sh /usr/local/gcc-graph codeviz目录下的bin/目录就是使用的脚本, 所以也不需要安装, 唯一需要做的事情是需" />
-
-  <meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Liu Peng" /><meta name="description" content="codeviz 用来生成代码调用关系 安装 $ git clone https://github.com/petersenna/codeviz $ cd compilers $ ncftpget ftp://ftp.gnu.org/pub/gnu/gcc/gcc-4.6.2/gcc-4.6.2.tar.gz $ ./install_gcc-4.6.2.sh /usr/local/gcc-graph codeviz目录下的bin/目录就是使用的脚本, 所以也不需要安装, 唯一需要做的事情是需" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.62.2" />
+<meta name="generator" content="Hugo 0.62.2 with theme even" />
 
 
 <link rel="canonical" href="http://ahappyforest.github.io/post/codeviz-usage/" />
-
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,15 +34,8 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
-
-
-
-
-
-<link href="/dist/even.min.css?v=3.0.1" rel="stylesheet">
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
-
-
 
 
 <meta property="og:title" content="Codeviz 工具编译与使用" />
@@ -90,7 +79,7 @@
 </div>
 <nav id="mobile-menu" class="mobile-menu slideout-menu">
   <ul class="mobile-menu-list">
-    <a href="/">
+    <a href="/post/">
         <li class="mobile-menu-item">主页</li>
       </a><a href="/post/">
         <li class="mobile-menu-item">归档</li>
@@ -110,7 +99,7 @@
 <nav class="site-navbar">
   <ul id="menu" class="menu">
     <li class="menu-item">
-        <a class="menu-item-link" href="/">主页</a>
+        <a class="menu-item-link" href="/post/">主页</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/post/">归档</a>
       </li><li class="menu-item">
@@ -133,21 +122,17 @@
       <div class="post-meta">
         <span class="post-time"> 2018-03-04 </span>
         <div class="post-category">
-            
-              <a href="/categories/toolchain/"> toolchain </a>
-            
-          </div>
-        
+            <a href="/categories/toolchain/"> toolchain </a>
+            </div>
+          <span class="more-meta"> 约 931 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
         
       </div>
     </header>
 
-    
-    
-<div class="post-toc" id="post-toc">
+    <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
-  
-  <div class="post-toc-content always-active">
+  <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
     <li><a href="#gcc-462编译问题解决1已经废弃-请按照gcc-462编译问题解决2走">gcc-4.6.2编译问题解决1(已经废弃, 请按照gcc-4.6.2编译问题解决2走)</a>
@@ -167,8 +152,6 @@
 </nav>
   </div>
 </div>
-
-    
     <div class="post-content">
       <p>codeviz 用来生成代码调用关系</p>
 <h1 id="安装">安装</h1>
@@ -276,7 +259,6 @@ Error: &lt;stdin&gt;: syntax error in line 4 near ';' # 这个错误不要管, �
 
     </div>
 
-    
     <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
@@ -284,34 +266,24 @@ Error: &lt;stdin&gt;: syntax error in line 4 near ';' # 这个错误不要管, �
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2018-03-04</span>
+    <span class="item-content">
+        2018-03-04
+        
+    </span>
   </p>
   
   
 </div>
-
-    
-    
-
-    <footer class="post-footer">
+<footer class="post-footer">
       <div class="post-tags">
-          
           <a href="/tags/gcc/">gcc</a>
-          
           <a href="/tags/codeviz/">codeviz</a>
-          
           <a href="/tags/graphviz/">graphviz</a>
-          
           <a href="/tags/doxygen/">doxygen</a>
-          
           <a href="/tags/code-graph/">code graph</a>
-          
-        </div>
-
-      
+          </div>
       <nav class="post-nav">
-        
-          <a class="prev" href="/post/opencore-uart16550-porting-from-wishbone-to-axi/">
+        <a class="prev" href="/post/opencore-uart16550-porting-from-wishbone-to-axi/">
             <i class="iconfont icon-left"></i>
             <span class="prev-text nav-default">OpenCore UART16550 Porting from Wishbone to AXI</span>
             <span class="prev-text nav-mobile">上一篇</span>
@@ -322,11 +294,11 @@ Error: &lt;stdin&gt;: syntax error in line 4 near ';' # 这个错误不要管, �
   </article>
         </div>
         
-  
 
   
 
   
+
       </div>
     </main>
 
@@ -351,8 +323,7 @@ Error: &lt;stdin&gt;: syntax error in line 4 near ';' # 这个错误不要管, �
 
   <span class="copyright-year">
     &copy; 
-    
-      2017 - 
+    2017 - 
     2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
@@ -366,11 +337,18 @@ Error: &lt;stdin&gt;: syntax error in line 4 near ';' # 这个错误不要管, �
       <i class="iconfont icon-up"></i>
     </div>
   </div>
-  
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
-<script type="text/javascript" src="/dist/even.min.js?v=3.0.1"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
 
 
