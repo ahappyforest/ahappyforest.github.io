@@ -1,1 +1,2 @@
 User-agent: *
+Sitemap: http://ahappyforest.github.io/sitemap.xml
