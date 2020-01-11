@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>graphviz on Even - A super concise theme for Hugo</title>
+    <link>http://ahappyforest.github.io/tags/graphviz/</link>
+    <description>Recent content in graphviz on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Mar 2018 11:24:57 +0800</lastBuildDate>
+    
+	<atom:link href="http://ahappyforest.github.io/tags/graphviz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Codeviz 工具编译与使用</title>
+      <link>http://ahappyforest.github.io/post/codeviz-usage/</link>
+      <pubDate>Sun, 04 Mar 2018 11:24:57 +0800</pubDate>
+      
+      <guid>http://ahappyforest.github.io/post/codeviz-usage/</guid>
+      <description>codeviz 用来生成代码调用关系 安装 $ git clone https://github.com/petersenna/codeviz $ cd compilers $ ncftpget ftp://ftp.gnu.org/pub/gnu/gcc/gcc-4.6.2/gcc-4.6.2.tar.gz $ ./install_gcc-4.6.2.sh /usr/local/gcc-graph codeviz目录下的bin/目录就是使用的脚本, 所以也不需要安装, 唯一需要做的事情是需</description>
+    </item>
+    
+  </channel>
+</rss>

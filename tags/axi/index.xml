@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>axi on Even - A super concise theme for Hugo</title>
+    <link>http://ahappyforest.github.io/tags/axi/</link>
+    <description>Recent content in axi on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Mar 2018 11:33:09 +0800</lastBuildDate>
+    
+	<atom:link href="http://ahappyforest.github.io/tags/axi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenCore UART16550 Porting from Wishbone to AXI</title>
+      <link>http://ahappyforest.github.io/post/opencore-uart16550-porting-from-wishbone-to-axi/</link>
+      <pubDate>Sun, 04 Mar 2018 11:33:09 +0800</pubDate>
+      
+      <guid>http://ahappyforest.github.io/post/opencore-uart16550-porting-from-wishbone-to-axi/</guid>
+      <description>1 背景 UART16550是串口通信电路的具体IP实现，最早的版本是在1987年由National Semiconductor发布的，后来经过历</description>
+    </item>
+    
+  </channel>
+</rss>

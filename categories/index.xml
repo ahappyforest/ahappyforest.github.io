@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Even - A super concise theme for Hugo</title>
+    <link>http://ahappyforest.github.io/categories/</link>
+    <description>Recent content in Categories on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ahappyforest.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>verification</title>
+      <link>http://ahappyforest.github.io/categories/verification/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ahappyforest.github.io/categories/verification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fpga</title>
+      <link>http://ahappyforest.github.io/categories/fpga/</link>
+      <pubDate>Sun, 04 Mar 2018 11:33:09 +0800</pubDate>
+      
+      <guid>http://ahappyforest.github.io/categories/fpga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>toolchain</title>
+      <link>http://ahappyforest.github.io/categories/toolchain/</link>
+      <pubDate>Sun, 04 Mar 2018 11:24:57 +0800</pubDate>
+      
+      <guid>http://ahappyforest.github.io/categories/toolchain/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

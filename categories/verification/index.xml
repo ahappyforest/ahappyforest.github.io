@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>verification on Even - A super concise theme for Hugo</title>
+    <link>http://ahappyforest.github.io/categories/verification/</link>
+    <description>Recent content in verification on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ahappyforest.github.io/categories/verification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>irun或者vcs dump波形文件的方法</title>
+      <link>http://ahappyforest.github.io/post/irun_vcs_dump_waveform_method/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ahappyforest.github.io/post/irun_vcs_dump_waveform_method/</guid>
+      <description>irun 当我们在irun下面需要dump波形文件的时候, 一般会在tb文件中写下如下的代码: module tb_top; ... logic [1023:0] testcase_reg; initial begin string testcase; $value$plugargs(&amp;quot;UVM_TESTNAME=%s&amp;quot;, testcase); testcase_reg = $sformatf(&amp;quot;waveform.%s.shm&amp;quot;, testcase); $shm_open(testcase_reg); $shm_probe(&amp;quot;AS&amp;quot;); end endmodule 注意, 这里之所以</description>
+    </item>
+    
+  </channel>
+</rss>
